@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://smilerelayai.com/sitemap.xml
