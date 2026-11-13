@@ -30,3 +30,17 @@ html{scroll-padding-top:90px}body{background:#f7fbfa}.sr-only{position:absolute!
 @media(max-width:800px){.nav-links{background:#0a2026;border:1px solid #295c56;border-top:0}.nav-links a{color:#cdeee5}.hero-grid{grid-template-columns:1fr;min-height:auto;gap:18px;padding-top:65px}.hero h1{font-size:clamp(44px,8vw,67px)}.hero-visual{min-height:510px}.command-center{width:90%}.studio-head{display:block}.studio-head>p{width:auto}.studio-shell{grid-template-columns:1fr}.studio-sidebar{grid-template-columns:1fr 1fr;border-right:0;border-bottom:1px solid #33736d}.studio-tab{min-height:80px}.stage-content{min-height:390px}.planner-wrap{grid-template-columns:1fr;gap:30px}.callout-steps{grid-template-columns:1fr}}
 @media(max-width:540px){.hero h1{font-size:clamp(38px,10.1vw,54px)}.hero-lead{font-size:15px}.hero-grid{padding-top:45px}.hero-visual{min-height:460px}.command-center{width:100%;transform:none;animation:none}.command-metrics{gap:8px;padding:12px}.command-metrics>div{padding:10px}.command-metrics strong{font-size:11px}.command-thread{margin:0 10px 10px;padding:12px}.thread-bubble{font-size:11px;padding:11px}.command-top,.command-bottom{padding:12px}.floating-label{font-size:9px;padding:8px}.floating-label strong{font-size:10px}.floating-label-top{top:-2%}.floating-label-bottom{bottom:-1%}.studio-sidebar{padding:9px;gap:7px}.studio-tab{padding:9px;gap:8px;min-height:75px}.studio-tab-icon{width:27px;height:27px;font-size:10px}.studio-tab strong{font-size:11px}.studio-tab small{font-size:10px}.studio-tab>span:last-child{display:none}.studio-stage-top{font-size:8px;padding:12px}.simulation-label{display:none}.stage-content{padding:22px 12px}.stage-chat-body{padding:14px}.stage-msg{font-size:11px}.planner-card{padding:18px}.planner-output strong{font-size:36px}.zoho-form iframe{min-height:1900px}}
 @media(prefers-reduced-motion:reduce){.command-center{animation:none!important}.hero-glow{filter:none}}
+
+/* Secure USD billing cards */
+.payment-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin:25px 0}
+.payment-plan{display:flex;flex-direction:column;align-items:flex-start;min-width:0;border:1px solid #c9e6dc;background:linear-gradient(150deg,#f0fbf7,#ffffff);border-radius:19px;padding:26px}
+.payment-tag{font-size:11px;font-weight:800;letter-spacing:.12em;color:#087b69}
+.payment-plan h3{margin:12px 0 6px;color:#092e33;font:800 clamp(27px,4vw,39px)/1.1 'Manrope',sans-serif;letter-spacing:-.045em}
+.payment-plan h3 small{font:700 12px 'Manrope',sans-serif;letter-spacing:0;color:#577e73}
+.payment-plan p{font-size:13px}
+.payment-action{margin-top:auto;padding-top:18px;min-height:65px}
+.payment-action form{margin:0}
+.payment-plan .button{margin-top:auto;color:#0a665c}
+.payment-plan .payment-pending{font-size:12px;font-weight:700;color:#446c65}
+.content-card p.payment-disclaimer{font-size:12px;color:#607a70}
+@media(max-width:780px){.payment-grid{grid-template-columns:1fr}}
